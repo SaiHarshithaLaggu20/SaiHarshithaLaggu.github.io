@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sai Harshitha Laggu | Cloud Engineer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 font-sans leading-relaxed text-gray-800">
+
+  <!-- Navigation Bar -->
+  <nav class="bg-indigo-900 text-white shadow-lg fixed w-full top-0 left-0 z-10">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#home" class="text-2xl font-semibold hover:text-indigo-300 transition-colors">Sai Harshitha Laggu</a>
+      <ul class="flex space-x-6 text-sm font-medium">
+        <li><a href="#home" class="hover:text-indigo-300 transition-colors">Home</a></li>
+        <li><a href="#about" class="hover:text-indigo-300 transition-colors">About</a></li>
+        <li><a href="#projects" class="hover:text-indigo-300 transition-colors">Projects</a></li>
+        <li><a href="#contact" class="hover:text-indigo-300 transition-colors">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="min-h-screen flex items-center bg-gradient-to-r from-indigo-800 to-indigo-600 text-white pt-20">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-2xl font-medium mb-2">Hi, I’m</h2>
+      <h1 class="text-5xl font-bold mb-4"><span class="text-pink-400">Sai</span> <span class="text-yellow-400">Harshitha</span> Laggu</h1>
+      <p class="text-xl font-medium mb-8">Cloud Engineer | AWS & Azure Specialist</p>
+      <img src="HI.png" alt="Profile Image" class="rounded-full mx-auto w-48 h-48 object-cover shadow-lg border-4 border-white transition-transform transform hover:scale-105" />
+      <div class="mt-10">
+        <a href="#about" class="inline-block px-8 py-3 text-sm font-semibold bg-pink-500 text-white rounded-full hover:bg-pink-600 transition-colors">Learn More About Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-20 bg-white">
+    <div class="container mx-auto px-6 max-w-3xl text-center">
+      <h2 class="text-4xl font-bold text-indigo-900 mb-8">About Me</h2>
+      <p class="text-lg text-gray-700 leading-relaxed">
+        I’m Sai Harshitha Laggu, a final-year Master’s student in Computer Science at the University of South Dakota. I specialize in cloud computing, with hands-on experience in <strong>AWS</strong> and <strong>Azure</strong>. My passion lies in designing scalable, secure, and efficient cloud architectures.
+      </p>
+      <div class="mt-8 text-left max-w-2xl mx-auto">
+        <h3 class="text-2xl font-semibold text-indigo-900 mb-4">Technical Expertise</h3>
+        <ul class="list-disc pl-6 space-y-2 text-gray-700">
+          <li>Cloud Platforms: AWS, Azure</li>
+          <li>Infrastructure as Code: Terraform</li>
+          <li>Programming: Python, Bash</li>
+          <li>Machine Learning: PyTorch, TensorFlow</li>
+        </ul>
+      </div>
+      <div class="mt-8 text-left max-w-2xl mx-auto">
+        <h3 class="text-2xl font-semibold text-indigo-900 mb-4">Beyond Tech</h3>
+        <p class="text-lg text-gray-700">
+          When I’m not architecting cloud solutions, you’ll find me:
+          <ul class="list-disc pl-6 space-y-2 mt-4">
+            <li>Playing cricket or badminton.</li>
+            <li>Exploring scenic routes on road trips.</li>
+          </ul>
+        </p>
+      </div>
+      <div class="mt-8">
+        <p class="text-lg font-medium text-indigo-900">
+          Currently working towards: <strong>AWS Certified Cloud Practitioner (by June 2025)</strong>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-20 bg-indigo-50">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold text-indigo-900 mb-12">Featured Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Project 1 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+          <h3 class="text-xl font-semibold text-indigo-600 mb-4">Fraud Detection with GNNs</h3>
+          <p class="text-gray-700">
+            Developed a fraud detection system using Graph Neural Networks (GNNs) to analyze financial transactions.
+          </p>
+          <p class="text-sm text-gray-600 mt-4"><strong>Tools:</strong> Python, PyTorch, DGL, AWS</p>
+        </div>
+        <!-- Project 2 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+          <h3 class="text-xl font-semibold text-indigo-600 mb-4">Hate Speech Detection</h3>
+          <p class="text-gray-700">
+            Built an AI-based content moderation system using AWS Comprehend, SageMaker, and BERT for hate speech detection.
+          </p>
+          <p class="text-sm text-gray-600 mt-4"><strong>Tools:</strong> AWS, BERT, Streamlit</p>
+        </div>
+        <!-- Project 3 -->
+        <div class="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">
+          <h3 class="text-xl font-semibold text-indigo-600 mb-4">Secure Audio Communication</h3>
+          <p class="text-gray-700">
+            Created a Python application for encrypting and decrypting audio files using AES-256 encryption.
+          </p>
+          <p class="text-sm text-gray-600 mt-4"><strong>Tools:</strong> Python, Tkinter, PyDub, Librosa</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 bg-indigo-900 text-white">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-8">Get In Touch</h2>
+      <p class="text-lg mb-12 max-w-2xl mx-auto">
+        I’m always open to discussing cloud technologies, collaborations, or sharing cricket strategies. Feel free to reach out!
+      </p>
+      <div class="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-8">
+        <a href="https://www.linkedin.com/in/sai-harshitha-laggu-66067a177/" target="_blank" class="text-pink-400 hover:text-pink-300 transition-colors">LinkedIn</a>
+        <a href="https://github.com/SaiHarshithaLaggu20" target="_blank" class="text-pink-400 hover:text-pink-300 transition-colors">GitHub</a>
+        <a href="mailto:saiharshita@gmail.com" class="text-pink-400 hover:text-pink-300 transition-colors">Email</a>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
